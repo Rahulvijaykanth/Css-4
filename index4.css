@@ -1,0 +1,238 @@
+.text{
+    text-align: center;
+    background: linear-gradient(red,green,yellow);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.text2{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 50%;
+    background-color: blue;
+}
+
+.container{
+    background-color: aqua;
+    border: 5px solid red;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+}
+
+.box2{
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.box3{
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.box4{
+    
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 20px;
+    margin-left: 435px;
+    display: inline-block;
+}
+
+
+.sec{
+    text-align: center;
+    background: linear-gradient(red,orange,yellow,orange,red);
+    height: 45px;
+    text-decoration: underline;
+}
+
+.container2{
+    display: grid;
+    align-items: center;
+    height: 200px;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 30px;
+    grid-template-columns: auto auto auto auto;
+    background: linear-gradient(blue,rgb(39,158,204), rgb(22,233,22));
+}
+
+.text7{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.sec1{
+    margin-top: -10px;
+}
+
+.text8{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.sec2{
+    margin-top: -10px;
+}
+
+.text9{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.sec3{
+    margin-top: -10px;
+}
+
+.text10{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: yellow;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.sec4{
+    margin-top: -10px;
+}
+
+.footer{
+    display: grid;
+    color: white;
+    grid-template-columns: auto auto auto 100px;
+    grid-template-rows: 50px 90px 200px 50px;
+    gap: 1rem;
+}
+
+.grid{
+    background-color: red;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.grid2{
+    background-color: lime;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    font-size: 2rem;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.grid3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    margin-top: -73px;
+    width: 30%;
+    background-color:rgb(60,60,221);
+    color: white;
+}
+
+.grid4{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 800px;
+    margin-top: -73px;
+    width: 30%;
+    background-color:rgb(60,60,221);
+    color: white;
+}
+
+.grid5{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.grid6{
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    color: white;
+    width: 20%;
+    margin-left: 1200px;
+    margin-top: -225px;
+}
+
+.grid7{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
